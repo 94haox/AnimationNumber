@@ -3,4 +3,4 @@
 
 ## 直接上效果 
 
-[image:gif]http://ww3.sinaimg.cn/large/006tNc79gw1fa39oxabfjg30ku112qa2.gif
+![效果图]http://ww3.sinaimg.cn/large/006tNc79gw1fa39oxabfjg30ku112qa2.gif
