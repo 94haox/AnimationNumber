@@ -20,8 +20,6 @@ static NSTimeInterval animationDuration = 0.2;
 @property (nonatomic, strong) NSMutableArray<NSString *> *currentNumbers;
 // 当前显示的Label
 @property (nonatomic, strong) NSMutableArray<UILabel *> *currentLabelList;
-// 0-9 所有数字
-@property (nonatomic, strong) NSArray *allNumbers;
 
 @property (nonatomic, strong) UIView *contentView;
 
@@ -196,13 +194,6 @@ static NSTimeInterval animationDuration = 0.2;
   return _contentView;
 }
 
-
-- (NSArray *)allNumbers{
-  if (!_allNumbers) {
-    _allNumbers = @[@"0",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9"];
-  }
-  return _allNumbers;
-}
 
 /*
 // Only override drawRect: if you perform custom drawing.
