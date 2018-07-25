@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    a pod source for animation number
 	DESC
 
-  s.homepage     = "https://github.com/94haox/AnimationNumber"
+  s.homepage     = "https://github.com/94haox/AnimationNumber.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Duke.wu" => "497160282@qq.com" }
+  s.author             = { "Duke.wu" => "www.wutaonslog@gmail.com" }
   # Or just: s.author    = "Duke.wu"
   # s.authors            = { "Duke.wu" => "497160282@qq.com" }
   # s.social_media_url   = "http://twitter.com/Duke.wu"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AnimationNumberView", "NumberAnimation/DWAnimationNumber/*.{h,m}"
+  s.source_files  = "Classes", "NumberAnimation/DWAnimationNumber/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
