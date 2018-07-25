@@ -44,7 +44,7 @@ static NSTimeInterval animationDuration = 0.2;
   return self;
 }
 
-
+#pragma mark - Private Methods
 
 - (void)updateLabelsWithNumber:(NSString *)number{
   
@@ -61,12 +61,12 @@ static NSTimeInterval animationDuration = 0.2;
         UILabel *oldLabel = self.oldLabelList[oldLength-i-1];
         if (![oldItem isEqualToString:item]) {
           
-        //  相同位置， 单个数字， 现在比之前大， 则从上往下， 现在比之前小则从下往上
+          // 相同位置， 单个数字， 现在比之前大， 则从上往下， 现在比之前小则从下往上
           CGRect frame = label.frame;
           if (oldItem.integerValue < item.integerValue) {
-           frame.origin.y = - label.frame.size.height;
+            frame.origin.y = - label.frame.size.height;
           }else{
-           frame.origin.y = label.frame.size.height;
+            frame.origin.y = label.frame.size.height;
           }
           
           label.frame = frame;

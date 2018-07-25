@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB552993210828CE0051812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB552985210828CE0051812B /* LaunchScreen.storyboard */; };
+		AB552994210828CE0051812B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB552987210828CE0051812B /* Main.storyboard */; };
+		AB552995210828CE0051812B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB552989210828CE0051812B /* AppDelegate.m */; };
+		AB552996210828CE0051812B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB55298A210828CE0051812B /* ViewController.m */; };
+		AB552997210828CE0051812B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB55298B210828CE0051812B /* main.m */; };
+		AB552998210828CE0051812B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB55298C210828CE0051812B /* Info.plist */; };
+		AB552999210828CE0051812B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB55298D210828CE0051812B /* Assets.xcassets */; };
+		AB55299A210828CE0051812B /* AnimationNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB552990210828CE0051812B /* AnimationNumberView.m */; };
 		ABDD7D3D1DE6B62800CC4AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD7D3C1DE6B62800CC4AB9 /* main.m */; };
 		ABDD7D401DE6B62800CC4AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD7D3F1DE6B62800CC4AB9 /* AppDelegate.m */; };
 		ABDD7D431DE6B62800CC4AB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD7D421DE6B62800CC4AB9 /* ViewController.m */; };
@@ -15,7 +23,6 @@
 		ABDD7D4B1DE6B62800CC4AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDD7D491DE6B62800CC4AB9 /* LaunchScreen.storyboard */; };
 		ABDD7D561DE6B62800CC4AB9 /* NumberAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD7D551DE6B62800CC4AB9 /* NumberAnimationTests.m */; };
 		ABDD7D611DE6B62800CC4AB9 /* NumberAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD7D601DE6B62800CC4AB9 /* NumberAnimationUITests.m */; };
-		ABDD7D701DE6B65400CC4AB9 /* AnimationNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD7D6F1DE6B65400CC4AB9 /* AnimationNumberView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB552986210828CE0051812B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB552988210828CE0051812B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB552989210828CE0051812B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB55298A210828CE0051812B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB55298B210828CE0051812B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB55298C210828CE0051812B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB55298D210828CE0051812B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB55298F210828CE0051812B /* AnimationNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationNumberView.h; sourceTree = "<group>"; };
+		AB552990210828CE0051812B /* AnimationNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationNumberView.m; sourceTree = "<group>"; };
+		AB552991210828CE0051812B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB552992210828CE0051812B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABDD7D381DE6B62800CC4AB9 /* NumberAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDD7D3C1DE6B62800CC4AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABDD7D3E1DE6B62800CC4AB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +70,6 @@
 		ABDD7D5C1DE6B62800CC4AB9 /* NumberAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDD7D601DE6B62800CC4AB9 /* NumberAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberAnimationUITests.m; sourceTree = "<group>"; };
 		ABDD7D621DE6B62800CC4AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABDD7D6E1DE6B65400CC4AB9 /* AnimationNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationNumberView.h; sourceTree = "<group>"; };
-		ABDD7D6F1DE6B65400CC4AB9 /* AnimationNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationNumberView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB552984210828CE0051812B /* NumberAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AB552985210828CE0051812B /* LaunchScreen.storyboard */,
+				AB552987210828CE0051812B /* Main.storyboard */,
+				AB552989210828CE0051812B /* AppDelegate.m */,
+				AB55298A210828CE0051812B /* ViewController.m */,
+				AB55298B210828CE0051812B /* main.m */,
+				AB55298C210828CE0051812B /* Info.plist */,
+				AB55298D210828CE0051812B /* Assets.xcassets */,
+				AB55298E210828CE0051812B /* DWAnimationNumber */,
+				AB552991210828CE0051812B /* AppDelegate.h */,
+				AB552992210828CE0051812B /* ViewController.h */,
+			);
+			name = NumberAnimation;
+			sourceTree = "<group>";
+		};
+		AB55298E210828CE0051812B /* DWAnimationNumber */ = {
+			isa = PBXGroup;
+			children = (
+				AB55298F210828CE0051812B /* AnimationNumberView.h */,
+				AB552990210828CE0051812B /* AnimationNumberView.m */,
+			);
+			path = DWAnimationNumber;
+			sourceTree = "<group>";
+		};
 		ABDD7D2F1DE6B62800CC4AB9 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +146,7 @@
 		ABDD7D3A1DE6B62800CC4AB9 /* NumberAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AB552984210828CE0051812B /* NumberAnimation */,
 				ABDD7D3E1DE6B62800CC4AB9 /* AppDelegate.h */,
 				ABDD7D3F1DE6B62800CC4AB9 /* AppDelegate.m */,
 				ABDD7D411DE6B62800CC4AB9 /* ViewController.h */,
@@ -113,8 +156,6 @@
 				ABDD7D491DE6B62800CC4AB9 /* LaunchScreen.storyboard */,
 				ABDD7D4C1DE6B62800CC4AB9 /* Info.plist */,
 				ABDD7D3B1DE6B62800CC4AB9 /* Supporting Files */,
-				ABDD7D6E1DE6B65400CC4AB9 /* AnimationNumberView.h */,
-				ABDD7D6F1DE6B65400CC4AB9 /* AnimationNumberView.m */,
 			);
 			path = NumberAnimation;
 			sourceTree = "<group>";
@@ -255,6 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABDD7D4B1DE6B62800CC4AB9 /* LaunchScreen.storyboard in Resources */,
+				AB552994210828CE0051812B /* Main.storyboard in Resources */,
+				AB552998210828CE0051812B /* Info.plist in Resources */,
+				AB552993210828CE0051812B /* LaunchScreen.storyboard in Resources */,
+				AB552999210828CE0051812B /* Assets.xcassets in Resources */,
 				ABDD7D481DE6B62800CC4AB9 /* Assets.xcassets in Resources */,
 				ABDD7D461DE6B62800CC4AB9 /* Main.storyboard in Resources */,
 			);
@@ -281,10 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDD7D701DE6B65400CC4AB9 /* AnimationNumberView.m in Sources */,
+				AB552995210828CE0051812B /* AppDelegate.m in Sources */,
 				ABDD7D431DE6B62800CC4AB9 /* ViewController.m in Sources */,
 				ABDD7D401DE6B62800CC4AB9 /* AppDelegate.m in Sources */,
 				ABDD7D3D1DE6B62800CC4AB9 /* main.m in Sources */,
+				AB552997210828CE0051812B /* main.m in Sources */,
+				AB55299A210828CE0051812B /* AnimationNumberView.m in Sources */,
+				AB552996210828CE0051812B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +368,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AB552985210828CE0051812B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB552986210828CE0051812B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AB552987210828CE0051812B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB552988210828CE0051812B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		ABDD7D441DE6B62800CC4AB9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
